@@ -16,13 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
         <activity android:name=".SignupActivity" />
         <activity android:name=".AdminActivity" />
         <activity android:name=".HomeOwnerActivity" />
         <activity android:name=".ServiceProviderActivity" />
         <activity android:name=".OwnerloginActivity" />
         <activity android:name=".AdminloginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".SPlogin" />
+        <activity android:name=".Calendar" />
+        <activity android:name=".OwnerLogin" />
+        <activity android:name=".SPLoginActivity"></activity>
     </application>
 
 </manifest>

@@ -18,9 +18,9 @@ public class Services extends ArrayAdapter<Service> {
 
 
     public Services(Activity context, List<Service> services) {
-         super(context, R.layout.layout_services, services);
-         this.context = context;
-         this.services = services;
+        super(context, R.layout.layout_services, services);
+        this.context = context;
+        this.services = services;
     }
 
     @Override
